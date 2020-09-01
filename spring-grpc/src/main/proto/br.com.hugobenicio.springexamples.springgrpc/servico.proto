@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+option java_multiple_files = true;
+option java_package = "br.com.hugobenicio.springexamples.springgrpc";
+option java_outer_classname = "GreetingGRPC";
+
+package springgrpc;
+
+service GreetingService {
+  rpc Greet (Subject) returns (Greeting) {}
+}
+
+message Subject {
+  string name = 1;
+}
+
+message Greeting {
+  string message = 1;
+}
