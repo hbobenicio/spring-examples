@@ -1,6 +1,6 @@
 # spring-boot-sentry
 
-Demo project that shows how to setup sentry for spring-boot apps.
+Demo project that shows how to setup sentry for spring-boot apps with [io.sentry.sentry-spring][sentry-spring-docs].
 
 ## Official sentry-spring docs
 
@@ -52,5 +52,5 @@ Follow this: https://hub.docker.com/_/sentry
 
 TODO docker-compose.yml and document it how to set it up
 
-[sentry-spring-docs]: https://docs.sentry.io/clients/java/integrations/#spring
+[sentry-spring-docs]: https://docs.sentry.io/platforms/java/guides/spring/
 [sentry-spring-installations]: https://docs.sentry.io/clients/java/integrations/#installation-6
