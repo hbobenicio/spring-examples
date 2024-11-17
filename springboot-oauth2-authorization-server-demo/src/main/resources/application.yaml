@@ -1,0 +1,19 @@
+debug: true
+
+#server:
+#    servlet:
+#        context-path: '/'
+
+spring:
+    mvc:
+        # request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+        log-request-details: true
+
+logging:
+    level:
+#        root: 'DEBUG'
+        web: 'DEBUG'
+        org.springframework.boot.autoconfigure: 'INFO'
+        org.springframework.security: 'DEBUG'
+        org.springframework.web: 'DEBUG'
+        org.springframework.web.servlet.DispatcherServlet: 'TRACE'
